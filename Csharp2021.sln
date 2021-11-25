@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassingParameters", "PassingParameters\PassingParameters.csproj", "{69549C76-E7E4-4BA6-B62A-706831478161}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PassingParameters", "PassingParameters\PassingParameters.csproj", "{69549C76-E7E4-4BA6-B62A-706831478161}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverload", "OperatorOverload\OperatorOverload.csproj", "{794196FA-3D6F-43C9-B0C6-FAD4D3E36CA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperatorOverload", "OperatorOverload\OperatorOverload.csproj", "{794196FA-3D6F-43C9-B0C6-FAD4D3E36CA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatDidntFitElsewhere1", "WhatDidntFitElsewhere1\WhatDidntFitElsewhere1.csproj", "{666FEF17-4A37-48DD-9D78-CC4455BBDC37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{794196FA-3D6F-43C9-B0C6-FAD4D3E36CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{794196FA-3D6F-43C9-B0C6-FAD4D3E36CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{794196FA-3D6F-43C9-B0C6-FAD4D3E36CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{666FEF17-4A37-48DD-9D78-CC4455BBDC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666FEF17-4A37-48DD-9D78-CC4455BBDC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{666FEF17-4A37-48DD-9D78-CC4455BBDC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666FEF17-4A37-48DD-9D78-CC4455BBDC37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
