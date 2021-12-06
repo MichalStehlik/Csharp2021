@@ -22,6 +22,8 @@ namespace FlexibleArray
 
         public int Length { get { return _array.Length; } }
 
+        public object this[int index] { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
         public void Add(object o)
         {
             Resize(ref _array, Length+1);
@@ -30,27 +32,30 @@ namespace FlexibleArray
 
         public object Get(int index)
         {
-            throw new NotImplementedException();
+            if (index < 0 || index > _array.Length) throw new ArgumentOutOfRangeException("Out of range");
+            return _array[index];
         }
 
         public object[] GetAll()
         {
-            throw new NotImplementedException();
+            return _array;
         }
 
         public IEnumerator GetEnumerator()
         {
-            throw new NotImplementedException();
+            return _array.GetEnumerator();
         }
 
-        public int IndexOf(object o)
+        public int? IndexOf(object o)
         {
             throw new NotImplementedException();
         }
 
         public void Set(int index, object o)
         {
-            throw new NotImplementedException();
+            if (index < 0) throw new ArgumentOutOfRangeException();
+            if (index > _array.Length) Resize(ref _array, _array.Length);
+            _array[index] = o;
         }
 
         protected void Resize(ref object[] old, int newSize)
@@ -62,6 +67,54 @@ namespace FlexibleArray
                 newArray[i] = old[i];
             }
             old = newArray;
+        }
+
+        protected int? FindFirstEmpty(ref object[] arr, int fromIndex = 0)
+        {
+            for (int i = fromIndex; i < arr.Length; i++)
+            {
+                if (arr[i] == null) return i;
+            }
+            return null;
+        }
+
+        public void ShiftItemsUp(int index, int size = 1)
+        {
+
+        }
+
+        public void ShiftItemsDown(int index, int size = 1)
+        {
+
+        }
+
+
+        //123456
+        //12x3456
+
+        public void Insert(int index, object o)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Remove(object o)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RemoveAt(int index)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void EmptyAt(int index)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Empty(object o)
+        {
+            throw new NotImplementedException();
         }
     }
 }
