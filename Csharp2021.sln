@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PassingParameters", "PassingParameters\PassingParameters.csproj", "{69549C76-E7E4-4BA6-B62A-706831478161}"
 EndProject
@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhatDidntFitElsewhere1", "W
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlexibleArray", "FlexibleArray\FlexibleArray.csproj", "{67977EC3-BED6-47B1-8D45-B0104A66CE46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpStrings", "CSharpStrings\CSharpStrings.csproj", "{BB564129-DDF2-4B28-815A-F5BD9015BF40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpStrings", "CSharpStrings\CSharpStrings.csproj", "{BB564129-DDF2-4B28-815A-F5BD9015BF40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatesAndTimes", "DatesAndTimes\DatesAndTimes.csproj", "{1C4F28DD-9A1A-4663-84CF-37B681E19645}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{BB564129-DDF2-4B28-815A-F5BD9015BF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB564129-DDF2-4B28-815A-F5BD9015BF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB564129-DDF2-4B28-815A-F5BD9015BF40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4F28DD-9A1A-4663-84CF-37B681E19645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4F28DD-9A1A-4663-84CF-37B681E19645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4F28DD-9A1A-4663-84CF-37B681E19645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4F28DD-9A1A-4663-84CF-37B681E19645}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
