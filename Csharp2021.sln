@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpStrings", "CSharpStri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatesAndTimes", "DatesAndTimes\DatesAndTimes.csproj", "{1C4F28DD-9A1A-4663-84CF-37B681E19645}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{0B3A6F62-81BE-46B6-BE05-87CB97C0A851}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{0B3A6F62-81BE-46B6-BE05-87CB97C0A851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{00779178-1370-4C28-8589-DCBDC9461A00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{0B3A6F62-81BE-46B6-BE05-87CB97C0A851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B3A6F62-81BE-46B6-BE05-87CB97C0A851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B3A6F62-81BE-46B6-BE05-87CB97C0A851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00779178-1370-4C28-8589-DCBDC9461A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00779178-1370-4C28-8589-DCBDC9461A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00779178-1370-4C28-8589-DCBDC9461A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00779178-1370-4C28-8589-DCBDC9461A00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
